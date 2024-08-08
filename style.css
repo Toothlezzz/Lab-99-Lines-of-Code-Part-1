@@ -1,0 +1,57 @@
+.friend {
+    background-color: aquamarine;
+    margin: 20px auto; /* Center the friend divs */
+    padding: 20px;
+    border: 2px dashed black;
+    width: 80%; /* Control the width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-radius: 10px; /* Rounded corners */
+
+}
+
+/* Example for a responsive layout using Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    color: gold;
+}
+.friend h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue ;
+    text-shadow: 2px 2px 4px rgba(255, 4, 4, 0.462); /* Applying text shadow */
+}
+.friend:hover {
+    background-color: rgb(87, 234, 87); /* Change color on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+    
+}
+
+/* Improved color scheme for paragraphs */
+p {
+    color: darkslategray;
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+#first{
+    color: blueviolet;
+}
+#second{
+    color: rgb(146, 62, 224);
+}
+#third{
+    color: rgb(157, 85, 224);
+}
+#fourth{
+    color: rgb(170, 114, 222);
+}
+#fifth{
+    color: rgb(172, 128, 214);
+}
